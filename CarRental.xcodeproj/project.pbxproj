@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -27,6 +27,24 @@
 		5176BA1327725833009D82AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5176BA1127725833009D82AF /* Main.storyboard */; };
 		5176BA1527725836009D82AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5176BA1427725836009D82AF /* Assets.xcassets */; };
 		5176BA1827725836009D82AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5176BA1627725836009D82AF /* LaunchScreen.storyboard */; };
+		D4B493C789C43D81E653630A /* Pods_CarRental.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E7E86FDAF9F08D1C2BBB8C /* Pods_CarRental.framework */; };
+		DB3180AC2791CFB500A6137E /* UserProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3180AB2791CFB500A6137E /* UserProfileVC.swift */; };
+		DB3180AE2791D31B00A6137E /* OrderHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3180AD2791D31B00A6137E /* OrderHistoryVC.swift */; };
+		DB3180B22791DCEA00A6137E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB3180B12791DCEA00A6137E /* GoogleService-Info.plist */; };
+		DB63B771279A708200955FCD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB63B770279A708200955FCD /* CFNetwork.framework */; };
+		DB63B774279AA9C500955FCD /* StartNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63B773279AA9C500955FCD /* StartNav.swift */; };
+		DBCDEDE92799E2590039CC1F /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCDEDE82799E2590039CC1F /* OrderModel.swift */; };
+		DBCDEDEB2799EF100039CC1F /* LoginWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCDEDEA2799EF100039CC1F /* LoginWithApple.swift */; };
+		DBF090E6279882AE006CE9FF /* StringFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF090E5279882AE006CE9FF /* StringFile.swift */; };
+		DBF090E927988350006CE9FF /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF090E827988350006CE9FF /* UserModel.swift */; };
+		DBF090EB27988409006CE9FF /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF090EA27988409006CE9FF /* UIApplication+Extension.swift */; };
+		DBF090ED27988435006CE9FF /* HomeNAV.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF090EC27988435006CE9FF /* HomeNAV.swift */; };
+		DBF090EF27988468006CE9FF /* GlobalFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF090EE27988468006CE9FF /* GlobalFunction.swift */; };
+		DBF090F1279889E8006CE9FF /* UserDefault+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF090F0279889E8006CE9FF /* UserDefault+Extension.swift */; };
+		DBF090F327988A1A006CE9FF /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF090F227988A1A006CE9FF /* UserDefault.swift */; };
+		DBF090F527988D84006CE9FF /* CarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF090F427988D84006CE9FF /* CarsModel.swift */; };
+		DBF090F727989411006CE9FF /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF090F627989411006CE9FF /* UIImageView+Extensions.swift */; };
+		DBF090F92798A508006CE9FF /* InsuranceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF090F82798A508006CE9FF /* InsuranceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +70,28 @@
 		5176BA1427725836009D82AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5176BA1727725836009D82AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5176BA1927725836009D82AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68E7E86FDAF9F08D1C2BBB8C /* Pods_CarRental.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarRental.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AE5D2F914154166918EF44 /* Pods-CarRental.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarRental.release.xcconfig"; path = "Target Support Files/Pods-CarRental/Pods-CarRental.release.xcconfig"; sourceTree = "<group>"; };
+		DB3180AB2791CFB500A6137E /* UserProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileVC.swift; sourceTree = "<group>"; };
+		DB3180AD2791D31B00A6137E /* OrderHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryVC.swift; sourceTree = "<group>"; };
+		DB3180B12791DCEA00A6137E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB63B770279A708200955FCD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DB63B772279A72A100955FCD /* CarRental-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CarRental-Bridging-Header.h"; path = "/Users/daman/Desktop/final_project/CarRental/CarRental-Bridging-Header.h"; sourceTree = "<absolute>"; };
+		DB63B773279AA9C500955FCD /* StartNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartNav.swift; sourceTree = "<group>"; };
+		DBCDEDE82799E2590039CC1F /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		DBCDEDEA2799EF100039CC1F /* LoginWithApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithApple.swift; sourceTree = "<group>"; };
+		DBF090E5279882AE006CE9FF /* StringFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringFile.swift; sourceTree = "<group>"; };
+		DBF090E827988350006CE9FF /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		DBF090EA27988409006CE9FF /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		DBF090EC27988435006CE9FF /* HomeNAV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNAV.swift; sourceTree = "<group>"; };
+		DBF090EE27988468006CE9FF /* GlobalFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFunction.swift; sourceTree = "<group>"; };
+		DBF090F0279889E8006CE9FF /* UserDefault+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefault+Extension.swift"; sourceTree = "<group>"; };
+		DBF090F227988A1A006CE9FF /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		DBF090F427988D84006CE9FF /* CarsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsModel.swift; sourceTree = "<group>"; };
+		DBF090F627989411006CE9FF /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		DBF090F82798A508006CE9FF /* InsuranceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceModel.swift; sourceTree = "<group>"; };
+		DBF090FA2798A9DF006CE9FF /* CarRental.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CarRental.entitlements; sourceTree = "<group>"; };
+		FB047B2C1233F11FAA912AF4 /* Pods-CarRental.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarRental.debug.xcconfig"; path = "Target Support Files/Pods-CarRental/Pods-CarRental.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB63B771279A708200955FCD /* CFNetwork.framework in Frameworks */,
+				D4B493C789C43D81E653630A /* Pods_CarRental.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +119,11 @@
 				5162931A2774EB4D00F626FB /* PaymentVC.swift */,
 				51629326277506D100F626FB /* SignUpVC.swift */,
 				5162932927750C9E00F626FB /* PaymentDoneVC.swift */,
+				DB3180AB2791CFB500A6137E /* UserProfileVC.swift */,
+				DB3180AD2791D31B00A6137E /* OrderHistoryVC.swift */,
+				DBF090EC27988435006CE9FF /* HomeNAV.swift */,
+				DBCDEDEA2799EF100039CC1F /* LoginWithApple.swift */,
+				DB63B773279AA9C500955FCD /* StartNav.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -85,10 +132,15 @@
 			isa = PBXGroup;
 			children = (
 				515C6BBD2773A752000EA086 /* String+Extension.swift */,
+				DBF090F627989411006CE9FF /* UIImageView+Extensions.swift */,
 				515C6BC12773BD42000EA086 /* Alert.swift */,
 				5162931D2774F79800F626FB /* UITapGesture+Extensions.swift */,
 				516293202774FC0100F626FB /* UIViewController+Extensions.swift */,
 				516293232774FC4300F626FB /* UIStoryBoard+Extension.swift */,
+				DBF090E5279882AE006CE9FF /* StringFile.swift */,
+				DBF090EA27988409006CE9FF /* UIApplication+Extension.swift */,
+				DBF090F0279889E8006CE9FF /* UserDefault+Extension.swift */,
+				DBF090F227988A1A006CE9FF /* UserDefault.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -98,6 +150,8 @@
 			children = (
 				5176BA0A27725833009D82AF /* CarRental */,
 				5176BA0927725833009D82AF /* Products */,
+				53A49A599F79102CEF201DD1 /* Pods */,
+				BCB772240C9767773440351A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +166,10 @@
 		5176BA0A27725833009D82AF /* CarRental */ = {
 			isa = PBXGroup;
 			children = (
+				DB63B772279A72A100955FCD /* CarRental-Bridging-Header.h */,
+				DBF090FA2798A9DF006CE9FF /* CarRental.entitlements */,
+				DBF090E727988335006CE9FF /* Model */,
+				DB3180B12791DCEA00A6137E /* GoogleService-Info.plist */,
 				515C6BBC2773A734000EA086 /* Extensions */,
 				515C6BB32773A48A000EA086 /* ViewControllers */,
 				5176BA0B27725833009D82AF /* AppDelegate.swift */,
@@ -121,8 +179,38 @@
 				5176BA1627725836009D82AF /* LaunchScreen.storyboard */,
 				5176BA1927725836009D82AF /* Info.plist */,
 				5104156E27732D5C0008A2D6 /* Images.xcassets */,
+				DBF090EE27988468006CE9FF /* GlobalFunction.swift */,
 			);
 			path = CarRental;
+			sourceTree = "<group>";
+		};
+		53A49A599F79102CEF201DD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB047B2C1233F11FAA912AF4 /* Pods-CarRental.debug.xcconfig */,
+				82AE5D2F914154166918EF44 /* Pods-CarRental.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BCB772240C9767773440351A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB63B770279A708200955FCD /* CFNetwork.framework */,
+				68E7E86FDAF9F08D1C2BBB8C /* Pods_CarRental.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBF090E727988335006CE9FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBF090E827988350006CE9FF /* UserModel.swift */,
+				DBF090F427988D84006CE9FF /* CarsModel.swift */,
+				DBF090F82798A508006CE9FF /* InsuranceModel.swift */,
+				DBCDEDE82799E2590039CC1F /* OrderModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5176BA1C27725836009D82AF /* Build configuration list for PBXNativeTarget "CarRental" */;
 			buildPhases = (
+				1C63EB24E80BCCB8D79DE1A8 /* [CP] Check Pods Manifest.lock */,
 				5176BA0427725833009D82AF /* Sources */,
 				5176BA0527725833009D82AF /* Frameworks */,
 				5176BA0627725833009D82AF /* Resources */,
+				0E3EE634C73ED9FC7805D0C9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,6 +274,7 @@
 			files = (
 				5176BA1827725836009D82AF /* LaunchScreen.storyboard in Resources */,
 				5104156F27732D5C0008A2D6 /* Images.xcassets in Resources */,
+				DB3180B22791DCEA00A6137E /* GoogleService-Info.plist in Resources */,
 				5176BA1527725836009D82AF /* Assets.xcassets in Resources */,
 				5176BA1327725833009D82AF /* Main.storyboard in Resources */,
 			);
@@ -191,27 +282,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E3EE634C73ED9FC7805D0C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarRental/Pods-CarRental-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarRental/Pods-CarRental-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarRental/Pods-CarRental-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C63EB24E80BCCB8D79DE1A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarRental-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5176BA0427725833009D82AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF090F92798A508006CE9FF /* InsuranceModel.swift in Sources */,
+				DBF090F527988D84006CE9FF /* CarsModel.swift in Sources */,
+				DB3180AE2791D31B00A6137E /* OrderHistoryVC.swift in Sources */,
 				516293242774FC4300F626FB /* UIStoryBoard+Extension.swift in Sources */,
+				DBCDEDEB2799EF100039CC1F /* LoginWithApple.swift in Sources */,
+				DBF090F1279889E8006CE9FF /* UserDefault+Extension.swift in Sources */,
 				516293152774B76900F626FB /* CarDetailsVC.swift in Sources */,
 				515C6BBE2773A752000EA086 /* String+Extension.swift in Sources */,
 				516293212774FC0100F626FB /* UIViewController+Extensions.swift in Sources */,
 				515C6BC52773C3A1000EA086 /* HomeVC.swift in Sources */,
 				515C6BBA2773A672000EA086 /* StartVC.swift in Sources */,
 				5176BA1027725833009D82AF /* ViewController.swift in Sources */,
+				DBF090E6279882AE006CE9FF /* StringFile.swift in Sources */,
 				5176BA0C27725833009D82AF /* AppDelegate.swift in Sources */,
 				5162931B2774EB4D00F626FB /* PaymentVC.swift in Sources */,
 				515C6BB72773A4AE000EA086 /* LoginVC.swift in Sources */,
 				5176BA0E27725833009D82AF /* SceneDelegate.swift in Sources */,
+				DBF090EB27988409006CE9FF /* UIApplication+Extension.swift in Sources */,
 				5162932A27750C9E00F626FB /* PaymentDoneVC.swift in Sources */,
 				5162931E2774F79800F626FB /* UITapGesture+Extensions.swift in Sources */,
+				DB63B774279AA9C500955FCD /* StartNav.swift in Sources */,
+				DBF090F327988A1A006CE9FF /* UserDefault.swift in Sources */,
 				515C6BC22773BD42000EA086 /* Alert.swift in Sources */,
 				51629327277506D100F626FB /* SignUpVC.swift in Sources */,
+				DB3180AC2791CFB500A6137E /* UserProfileVC.swift in Sources */,
+				DBF090ED27988435006CE9FF /* HomeNAV.swift in Sources */,
+				DBF090E927988350006CE9FF /* UserModel.swift in Sources */,
 				516293182774C56800F626FB /* InsuranceListVC.swift in Sources */,
+				DBF090F727989411006CE9FF /* UIImageView+Extensions.swift in Sources */,
+				DBF090EF27988468006CE9FF /* GlobalFunction.swift in Sources */,
+				DBCDEDE92799E2590039CC1F /* OrderModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,12 +503,44 @@
 		};
 		5176BA1D27725836009D82AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB047B2C1233F11FAA912AF4 /* Pods-CarRental.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_ENTITLEMENTS = CarRental/CarRental.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC/openssl_grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Cosmos/Cosmos.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth/FirebaseAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/FirebaseFirestore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseStorage/FirebaseStorage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil/absl.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/grpcpp.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core/grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library/leveldb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/mailcore2-ios\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+					"\"${PODS_ROOT}/Headers/Public/mailcore2-ios/MailCore\"",
+				);
 				INFOPLIST_FILE = CarRental/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -370,6 +550,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Ashish.CarRental;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CarRental/CarRental-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -377,12 +558,51 @@
 		};
 		5176BA1E27725836009D82AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82AE5D2F914154166918EF44 /* Pods-CarRental.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_ENTITLEMENTS = CarRental/CarRental.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC/openssl_grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Cosmos/Cosmos.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth/FirebaseAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/FirebaseFirestore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseStorage/FirebaseStorage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil/absl.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/grpcpp.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core/grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library/leveldb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/mailcore2-ios\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+					"\"${PODS_ROOT}/Headers/Public/mailcore2-ios/MailCore\"",
+				);
+				"HEADER_SEARCH_PATHS[sdk=*]" = (
+					"\"${PODS_ROOT}/Headers/Public/mailcore2-ios/MailCore\"",
+					"\"${PODS_ROOT}/mailcore2-ios/MailCore\"",
+					"\"${PODS_ROOT}/Headers/Public/mailcore2-ios\"",
+					"\"${PODS_ROOT}/mailcore2-ios\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
 				INFOPLIST_FILE = CarRental/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -392,6 +612,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Ashish.CarRental;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CarRental/CarRental-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

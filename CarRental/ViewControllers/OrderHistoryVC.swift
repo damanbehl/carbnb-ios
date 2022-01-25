@@ -2,7 +2,6 @@
 //  OrderHistoryVC.swift
 //  CarRental
 //
-//  Created by 2022M3 on 14/01/22.
 //
 
 import UIKit
