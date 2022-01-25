@@ -2,7 +2,6 @@
 //  UIImageView+Extensions.swift
 //  
 //
-//  Created by 2022M3 on 20/01/22.
 //
 
 import Foundation
